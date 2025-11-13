@@ -1,16 +1,11 @@
-# Buku Pegangan AI untuk Guru: TK SD SMP SMA SMK
+# Buku Membangun Aplikasi No Code dengan AppSheet Dari Konsep ke Prototype DIPAYANG
 
-Onno W. Purbo
-
-onno@indo.net.id
-
-onno@itts.ac.id
-
-Twitter onnowpurbo
+Hariyanto
 
 2025
 
 Lisensi & Catatan Karya
+
 Karya ini dilisensikan di bawah lisensi Creative Commons Attribution-ShareAlike 4.0
 International (CC BY-SA 4.0).
 Artinya, siapa pun bebas untuk menggunakan, menyalin, membagikan, dan mengadaptasi materi ini, dengan syarat:
@@ -21,9 +16,16 @@ Artinya, siapa pun bebas untuk menggunakan, menyalin, membagikan, dan mengadapta
 
 Lihat detail lisensi di sini https://creativecommons.org/licenses/by-nd/4.0/legalcode.id
 
-Desain Cover: Irwan Siswanto
+Desain Cover: Robby Kurniawan J
 
 Disclaimer
-Materi pembelajaran ini dibuat dengan dana swadaya masyarakat Indonesia dan kontribusi sukarela dari para dosen di Institut Teknologi Tangerang Selatan (ITTS).
-Karya ini didistribusikan secara bebas untuk mendukung pendidikan digital dan kecerdasan buatan di kalangan pelajar Indonesia.
-Kami memohon maaf jika terdapat kekurangan dalam isi maupun penyajian materi ini. Kritik dan saran sangat kami harapkan untuk terus menyempurnakan karya serupa di masa depan.
+
+Buku ini merupakan panduan praktis membangun aplikasi tanpa kode (no code)
+menggunakan AppSheet, mulai dari konsep hingga realisasi prototype DIPAYANG
+(Digitalisasi Pengamanan Aset Kepahiang).
+DIPAYANG dirancang untuk membantu pengelolaan dan pengamanan data aset di
+lingkungan pemerintah daerah, berdasarkan regulasi terbaru yaitu Permendagri
+Nomor 19 Tahun 2016, 47 Tahun 2021, dan 7 Tahun 2024.
+Melalui buku ini, pembaca akan memahami bagaimana ide sederhana dapat
+diwujudkan menjadi inovasi nyata dengan teknologi no-code, sepenuhnya gratis,
+efisien, dan mudah direplikasi.
