@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-  <title>Buku Pegangan AI untuk Guru: TK SD SMP SMA SMK</title>
+  <title>Membangun Aplikasi No Code dengan AppSheet Dari Konsep ke Prototype DIPAYANG</title>
 
   <!--
     Catatan: file ini sengaja verbose (banyak komentar & struktur) agar mudah dibaca.
-    Total halaman diatur oleh TOTAL_PAGES (default 318).
+    Total halaman diatur oleh TOTAL_PAGES (default 142).
     Pastikan:
-      - images/page1.png ... images/page950.png tersedia
+      - images/page1.png ... images/page142.png tersedia
       - sounds/flip.mp3 tersedia
       - js/jquery.min.js dan js/turn.min.js tersedia
   -->
@@ -253,11 +253,11 @@
   <!-- App -->
   <div class="wrap" id="app" style="display:none;">
     <header>
-      <h1>Buku Pegangan AI untuk Guru: TK SD SMP SMA SMK</h1>
+      <h1>Membangun Aplikasi No Code dengan AppSheet Dari Konsep ke Prototype DIPAYANG</h1>
       <div style="display:flex;gap:10px;align-items:center">
         <button id="fullscreenToggle" class="btn secondary">Toggle Fullscreen</button>
         <button id="themeToggle" class="btn secondary">🌙 Theme</button>
-        <div id="pageInfo" class="info">Halaman 1 / 318</div>
+        <div id="pageInfo" class="info">Halaman 1 / 142</div>
       </div>
     </header>
 
@@ -278,7 +278,7 @@
 
       <div class="goto">
         <label style="color:var(--muted)">Ke halaman</label>
-        <input id="gotoInput" type="number" min="1" max="318" value="1">
+        <input id="gotoInput" type="number" min="1" max="142" value="1">
         <button id="gotoBtn" class="btn">Go</button>
       </div>
     </div>
@@ -309,11 +309,11 @@
     /* =========================
        CONFIG & STATE
        ========================= */
-    const TOTAL_PAGES = 318;     // sesuaikan kalau berubah
+    const TOTAL_PAGES = 142;     // sesuaikan kalau berubah
     const PER_BLOCK = 10;        // pagination per block
     const A4_ASPECT = 1.41421356; // tinggi/lebar ≈ 297/210
-    const MAX_BOOK_WIDTH = 318; // maksimal lebar book (adjustable)
-    const PRELOAD_COUNT = 318;    // halaman pertama yang dipreload sebelum sembunyikan loader
+    const MAX_BOOK_WIDTH = 142; // maksimal lebar book (adjustable)
+    const PRELOAD_COUNT = 142;    // halaman pertama yang dipreload sebelum sembunyikan loader
 
     let currentPage = 1;         // halaman aktif (1-based)
     let currentBlock = 1;
@@ -725,22 +725,12 @@
     // Manual juz start mapping — sesuai mushaf Madinah (604 halaman)
 // Sesuaikan nomor halamannya dengan versi PDF / image kamu
 const juzStarts = [
-  11,
-  23,  // Juz 2
-  36,  // Juz 3
-  55,  // Juz 4
-  72,  // Juz 5
-  89, // Juz 6
-  108,
-  129,
-  159,
-  164,
-  194,
-  205,
-  231,
-  260,
-  277,
-  295
+  6,
+  18,  // Juz 2
+  44,  // Juz 3
+  71,  // Juz 4
+  105,  // Juz 5
+  124
 ];
 
 
